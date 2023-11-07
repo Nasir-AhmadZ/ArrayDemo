@@ -8,7 +8,7 @@ public class Main {
         int x,index=100;
 
         ArrayDemo= new int[10];
-        for (x=0;x<10;x++)
+        for (x=0;x<11;x++)
         {
             ArrayDemo[x]=index;
             index+=100;
