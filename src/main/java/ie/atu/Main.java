@@ -10,6 +10,10 @@ public class Main {
         ArrayDemo= new int[10];
         for (x=0;x<11;x++)
         {
+            if(x>9)
+            {
+                break;
+            }
             ArrayDemo[x]=index;
             index+=100;
             System.out.println("Element at index "+x+" is "+ArrayDemo[x]);
