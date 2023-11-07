@@ -5,10 +5,10 @@ package ie.atu;
 public class Main {
     public static void main(String[] args) {
         int[] ArrayDemo;
-        int x,index=100;
+        int index=100;
 
         ArrayDemo= new int[10];
-        for (x=0;x<11;x++)
+        for (int x:ArrayDemo)
         {
             if(x>9)
             {
